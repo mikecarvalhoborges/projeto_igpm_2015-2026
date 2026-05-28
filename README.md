@@ -5,7 +5,9 @@ Projeto de análise de dados sobre a evolução do IGP-M (Índice Geral de Preç
 Analisar o comportamento histórico do IGP-M, principal índice de reajuste de aluguéis no Brasil, identificando tendências, comparativos ano vs. ano e classificando os períodos por nível de inflação.
 
 ## Tecnologias Utilizadas
-TecnologiaUsoPythonConsumo de API, tratamento de dados e visualizaçõespandasManipulação e transformação dos dadosmatplotlibGráficos exploratóriosDatabricksProcessamento com SparkSQL e armazenamento em tabela DeltaSQLAnálises com CTEs, JOINs e Window FunctionsPower BIModelagem Star Schema e dashboard interativo
+| Tecnologia | Uso | 
+| --- | --- |
+PythonConsumo de API, tratamento de dados e visualizaçõespandasManipulação e transformação dos dadosmatplotlibGráficos exploratóriosDatabricksProcessamento com SparkSQL e armazenamento em tabela DeltaSQLAnálises com CTEs, JOINs e Window FunctionsPower BIModelagem Star Schema e dashboard interativo
 
 ## Arquitetura do Projeto
 [API Banco Central do Brasil]
