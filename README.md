@@ -14,6 +14,14 @@ Analisar o comportamento histórico do IGP-M, principal índice de reajuste de a
 | SQL | Análises com CTEs, JOINs e Window Functions |
 | Power BI | Modelagem Star Schema e dashboard interativo |
 
+## Principais Insights
+1. 🔺 Pico histórico na pandemia (2020)
+O IGP-M acumulou 21,10% em 2020 — o maior valor do período analisado. A combinação de alta do dólar, ruptura nas cadeias de suprimento e aumento de commodities agrícolas pressionou o índice, que tem 60% de peso no atacado (IPA).
+2. 📉 Deflação em 2023
+O ano de 2023 registrou -3,18% acumulado — o pior resultado do período. Uma combinação de queda no preço de commodities e apreciação do real derrubou o índice para território negativo, trazendo alívio para inquilinos mas prejuízo para proprietários.
+3. 🔺 Nova alta em 2026
+O IGP-M apresenta tendência de alta em 2026, sinalizando possível retomada de pressão inflacionária após dois anos de índices baixos (2024 e 2025).
+
 ## Arquitetura do Projeto
 [API Banco Central do Brasil]
         ↓
@@ -37,14 +45,6 @@ Endpoint: https://api.bcb.gov.br/dados/serie/bcdata.sgs.189/dados
 ⚠️ Nota: A conexão direta entre Databricks Community Edition e Power BI via JDBC/ODBC não é suportada. Os dados foram exportados em CSV para a conexão com o Power BI. Em ambiente corporativo, essa conexão seria feita diretamente.
 
 
-  Modelagem — Star Schema
-        dim_tempo
-            |
-           ano
-            |
-    fato_igpm ——— ano ——— dim_classificacao
-TabelaTipoDescriçãofato_igpmFatoDados mensais de data, valor, ano e mêsdim_tempoDimensãoAnos do período analisadodim_classificacaoDimensãoClassificação dos anos por nível de inflação
-
 ## Análises SQL Realizadas
 
 IGP-M acumulado por ano — GROUP BY + SUM
@@ -52,12 +52,3 @@ Classificação por período — CASE WHEN
 Comparativo ano vs. ano — LAG() Window Function
 Variação anual — CTE + cálculo de diferença
 Cruzamento com classificação — JOIN entre tabelas
-
-
-## Principais Insights
-1. 🔺 Pico histórico na pandemia (2020)
-O IGP-M acumulou 21,10% em 2020 — o maior valor do período analisado. A combinação de alta do dólar, ruptura nas cadeias de suprimento e aumento de commodities agrícolas pressionou o índice, que tem 60% de peso no atacado (IPA).
-2. 📉 Deflação em 2023
-O ano de 2023 registrou -3,18% acumulado — o pior resultado do período. Uma combinação de queda no preço de commodities e apreciação do real derrubou o índice para território negativo, trazendo alívio para inquilinos mas prejuízo para proprietários.
-3. 🔺 Nova alta em 2026
-O IGP-M apresenta tendência de alta em 2026, sinalizando possível retomada de pressão inflacionária após dois anos de índices baixos (2024 e 2025).
