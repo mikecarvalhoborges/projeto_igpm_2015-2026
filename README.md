@@ -7,7 +7,12 @@ Analisar o comportamento histórico do IGP-M, principal índice de reajuste de a
 ## Tecnologias Utilizadas
 | Tecnologia | Uso | 
 | --- | --- |
-PythonConsumo de API, tratamento de dados e visualizaçõespandasManipulação e transformação dos dadosmatplotlibGráficos exploratóriosDatabricksProcessamento com SparkSQL e armazenamento em tabela DeltaSQLAnálises com CTEs, JOINs e Window FunctionsPower BIModelagem Star Schema e dashboard interativo
+| Python | Consumo de API, tratamento de dados e visualizações |
+| pandas | Manipulação e transformação dos dados |
+| matplotlib | Gráficos exploratórios |
+| Databricks | Processamento com SparkSQL e armazenamento em tabela Delta | 
+| SQL | Análises com CTEs, JOINs e Window Functions |
+| Power BI | Modelagem Star Schema e dashboard interativo |
 
 ## Arquitetura do Projeto
 [API Banco Central do Brasil]
