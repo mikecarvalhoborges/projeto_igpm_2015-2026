@@ -25,21 +25,6 @@ Analisar o comportamento histórico do IGP-M, principal índice de reajuste de a
         ↓
 [Power BI — Star Schema + Dashboard]
 
-## Estrutura do Repositório
-igpm-analysis/
-│
-├── notebooks/
-│   ├── 01_extracao_api.ipynb   # Extração da API, tratamento e gráficos
-│   └── 02_analise_sql.sql      # Análises SQL com CTEs e Window Functions
-│
-├── dashboard/
-│   └── igpm_dashboard.pbix     # Dashboard Power BI
-│
-├── data/
-│   └── bcdata.sgs.189.csv      # Dados brutos extraídos da API do BCB
-│
-└── README.md
-
 ## Fonte dos Dados
 Os dados foram extraídos via API pública do Banco Central do Brasil (SGS) — sem necessidade de autenticação.
 
