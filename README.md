@@ -24,13 +24,13 @@ O IGP-M apresenta tendência de alta em 2026, sinalizando possível retomada de 
 
 ## Arquitetura do Projeto
 [API Banco Central do Brasil]
-        ↓
+        ->
 [Python — requests + pandas + matplotlib]
-        ↓
+        ->
 [Databricks — SparkSQL + Tabela Delta]
-        ↓
+        ->
 [SQL — CTEs, JOINs, Window Functions]
-        ↓
+        ->
 [Power BI — Star Schema + Dashboard]
 
 ## Fonte dos Dados
