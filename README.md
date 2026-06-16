@@ -15,11 +15,11 @@ Analisar o comportamento histórico do IGP-M, principal índice de reajuste de a
 | Power BI | Modelagem Star Schema e dashboard interativo |
 
 ## Principais Insights
-1. 🔺 Pico histórico na pandemia (2020)
-O IGP-M acumulou 21,10% em 2020 — o maior valor do período analisado. A combinação de alta do dólar, ruptura nas cadeias de suprimento e aumento de commodities agrícolas pressionou o índice, que tem 60% de peso no atacado (IPA).
-2. 📉 Deflação em 2023
-O ano de 2023 registrou -3,18% acumulado — o pior resultado do período. Uma combinação de queda no preço de commodities e apreciação do real derrubou o índice para território negativo, trazendo alívio para inquilinos mas prejuízo para proprietários.
-3. 🔺 Nova alta em 2026
+1. 🔺 Pico histórico na pandemia (2020):
+O IGP-M acumulou 21,10% em 2020, o maior valor do período analisado. A combinação de alta do dólar, ruptura nas cadeias de suprimento e aumento de commodities agrícolas pressionou o índice, que tem 60% de peso no atacado (IPA).
+2. 📉 Deflação em 2023:
+O ano de 2023 registrou -3,18% acumulado, o pior resultado do período. Uma combinação de queda no preço de commodities e apreciação do real derrubou o índice para território negativo, trazendo alívio para inquilinos mas prejuízo para proprietários.
+3. 🔺 Nova alta em 2026:
 O IGP-M apresenta tendência de alta em 2026, sinalizando possível retomada de pressão inflacionária após dois anos de índices baixos (2024 e 2025).
 
 ## Arquitetura do Projeto
